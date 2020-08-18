@@ -1,0 +1,27 @@
+.song_box{
+    padding:30px;
+}
+.rs-list{
+    box-shadow:none;
+}
+.title_text{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.name_box{  
+      
+}
+.name_box img{
+    width:80px;
+    height: 60px;
+}
+.name_box span{
+    margin-left: 10px;
+}
+.song_box2{
+    padding:30px 30px 80px 30px;
+}
+.name_center{
+    display: flex;
+    justify-content: space-between;
+}

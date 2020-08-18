@@ -1,0 +1,61 @@
+.rs-tooltip .rs-tooltip-inner{
+    background-color:#89EB61;
+}
+.rs-slider-progress-bar{
+    background-color:#89EB61;
+}
+.rs-tooltip[class*='placement-right'] .rs-tooltip-arrow{
+    display: none;
+}
+.rs-tooltip[class*=placement-top] .rs-tooltip-arrow{
+    display: none;
+}
+.rs-slider-handle:hover .rs-tooltip, .rs-slider-handle.active .rs-tooltip{
+    top:-22px;
+}
+.voc_height .rs-slider-bar{
+    height:10px;
+}
+.voc_height .rs-slider-progress-bar{
+    height:10px;
+    z-index: 1001;
+}
+.voc_height .rs-slider-handle::before{
+    width: 16px;
+    height: 16px;
+    top:2px;
+}
+.btn_right{
+    margin-right: 15px;
+}
+.bottom_flex{
+    display: flex;
+    align-items: center;
+}
+.bottom_center{
+    display: flex;
+    align-items: center;
+}
+.bottom_sj{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.bottom_box3{
+    display: flex;
+    margin-left:8%;
+}
+.buffer_dom{
+    height:10px;   
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 3px;
+    width: 100%;
+    background-color: #f2f2f5;
+}
+.postion_dom{
+    position: relative;
+}
+.rs-slider-handle{
+    z-index: 1042;
+}
